@@ -61,15 +61,15 @@ That's what led to this project.
 
 ## What I Built
 
-### 🎯 Core Features
-- ✅ Upload multiple JPEG images at once
-- ✅ Merge them into a single PDF document
-- ✅ Download the converted PDF file
-- ✅ Fully Dockerized backend and frontend
-- ✅ Services communicate over Docker bridge network
-- ✅ MongoDB stores upload metadata
+### Core Features
+- Upload multiple JPEG images at once
+- Merge them into a single PDF document
+- Download the converted PDF file
+- Fully Dockerized backend and frontend
+- Services communicate over Docker bridge network
+- MongoDB stores upload metadata
 
-### 🏗️ Architecture
+### Architecture
 
 ```
 Frontend (React + Vite + Nginx)
@@ -137,7 +137,7 @@ docker logs mongo --tail=20
 
 ![MongoDB Running](screenshots/mongo_running.png)
 
-✅ MongoDB started successfully and connected to `jpeg-net`.
+MongoDB started successfully and connected to `jpeg-net`.
 
 ---
 
@@ -178,7 +178,7 @@ docker logs backend --tail=50
 
 ![Backend & MongoDB Running](screenshots/backend_mongo_running.png)
 
-✅ Backend connected to MongoDB successfully!
+Backend connected to MongoDB successfully!
 
 #### Testing the Backend:
 
@@ -253,7 +253,7 @@ docker logs frontend --tail=20
 
 ![Frontend Running](screenshots/frontend_running.png)
 
-✅ Nginx serving the React build successfully!
+Nginx serving the React build successfully!
 
 ---
 
@@ -270,9 +270,9 @@ docker ps
 I opened my browser and navigated to `http://localhost:5173`.
 
 For the first time, everything worked together:
-- Frontend loaded ✅
-- Backend connected ✅
-- MongoDB storing data ✅
+- Frontend loaded 
+- Backend connected 
+- MongoDB storing data 
 
 I uploaded a few JPEG images...
 
@@ -419,7 +419,7 @@ Open your browser and go to:
 http://localhost:5173
 ```
 
-Upload JPEG images and download your PDF! 📄
+Upload JPEG images and download your PDF! 
 
 ---
 
